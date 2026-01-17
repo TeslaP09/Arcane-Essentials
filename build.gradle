@@ -28,10 +28,10 @@ apply plugin: "org.sonarqube"
 
 ext.config = parseConfig(file("build.properties"))
 ext.dependenciesConfig = parseConfig(file("dependencies.properties"))
-ext.secrets = parseConfig(file("secrets.properties"))
+//ext.secrets = parseConfig(file("secrets.properties"))
 
 
-version = "1.0.2"
+version = "1.0.2.1"
 group = "com.favouritedragon.arcane_essentials"
 archivesBaseName = "ArcaneEssentials"
 
